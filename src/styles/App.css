@@ -14,16 +14,19 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(1, 65, 101);
+  padding: 15px;
 }
 nav a {
-  margin: 1rem;
-  color: rgb(16, 175, 254);
+  margin: 1.5rem;
+  color: rgb(241, 233, 240);
+  text-transform: uppercase;
 }
 
 .header-title {
-  padding-top: 10px;
-  padding-left: 1rem;
-  color: rgb(16, 175, 254);
+  color: rgb(241, 233, 240);
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 15px;
 }
 
 .page-div {
@@ -32,4 +35,13 @@ nav a {
 
 .button-div {
   padding: 120px 0;
+}
+
+header a.active {
+  color: #ff05fd;
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(209, 64, 96);
 }

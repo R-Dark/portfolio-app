@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 
-class About extends Component {
+class Contacts extends Component {
   render() {
     return (
       <div className="page-div">
         <Helmet>
-          <title>About</title>
+          <title>Contacts</title>
         </Helmet>
-        <h1>Future About Page</h1>
+        <h2>This is the future contacts page</h2>
       </div>
     );
   }
 }
 
-export default About;
+export default Contacts;

@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 
-class About extends Component {
+class References extends Component {
   render() {
     return (
       <div className="page-div">
         <Helmet>
-          <title>About</title>
+          <title>References</title>
         </Helmet>
-        <h1>Future About Page</h1>
+        <h2>This is the future references page</h2>
       </div>
     );
   }
 }
 
-export default About;
+export default References;

@@ -8,7 +8,7 @@ class BaseLayout extends Component {
     return (
       <div className="container-fluid">
         <Header />
-        <div>{this.props.children}</div>
+        <div className="container">{this.props.children}</div>
         <Footer />
       </div>
     );
