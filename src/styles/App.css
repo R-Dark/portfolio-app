@@ -32,8 +32,12 @@ footer a {
 
 .header-title {
   color: rgb(241, 233, 240);
-  font-size: 30px;
-  margin-top: 8px;
+  font-size: 32px;
+}
+
+.logo-div a.active {
+  color: #21ff05;
+  text-decoration: none;
 }
 
 .page-div {
@@ -44,9 +48,10 @@ footer a {
   padding: 120px 0;
 }
 
-header a.active {
+nav a.active {
   color: #21ff05;
   text-decoration: none;
+  font-size: 17px;
 }
 
 footer a.active {
