@@ -6,7 +6,7 @@ class Contacts extends Component {
     return (
       <div className="page-div">
         <Helmet>
-          <title>Contacts</title>
+          <title>Contact</title>
         </Helmet>
         <h2>This is the future contacts page</h2>
       </div>

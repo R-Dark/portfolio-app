@@ -13,11 +13,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(1, 65, 101);
-  padding: 15px;
+  background-color: #2c3e50;
+  padding: 13px;
 }
+
 header a {
-  margin: 1.5rem;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
   color: rgb(241, 233, 240);
   text-transform: uppercase;
 }
@@ -32,7 +34,6 @@ footer a {
   color: rgb(241, 233, 240);
   font-size: 30px;
   margin-top: 8px;
-  margin-left: 15px;
 }
 
 .page-div {

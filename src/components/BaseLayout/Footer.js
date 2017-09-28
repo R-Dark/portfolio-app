@@ -12,7 +12,7 @@ class Footer extends Component {
             </NavLink>
             <NavLink to="/portfolio">Portfolio</NavLink>
             <NavLink to="/about">About</NavLink>
-            <NavLink to="/contacts">Contacts</NavLink>
+            <NavLink to="/contacts">Contact</NavLink>
             <NavLink to="/references">References</NavLink>
           </nav>
         </footer>
