@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -7,9 +7,13 @@ class Footer extends Component {
       <div className="footer-div">
         <footer>
           <nav>
-            <Link to="/">Home</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/about">About</Link>
+            <NavLink exact to="/">
+              Home
+            </NavLink>
+            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contacts">Contacts</NavLink>
+            <NavLink to="/references">References</NavLink>
           </nav>
         </footer>
       </div>

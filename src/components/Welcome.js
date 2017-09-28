@@ -12,8 +12,12 @@ class Welcome extends Component {
         <h1>Welcome to My Portfolio.</h1>
         <div className="button-div">
           <Link to="/portfolio">
-            <button type="button" className="btn btn-primary btn-lg">
-              CONTACT ME
+            <button
+              id="button"
+              type="button"
+              className="btn btn-primary btn-lg"
+            >
+              Check Out My Work!
             </button>
           </Link>
         </div>

@@ -16,9 +16,15 @@ header {
   background-color: rgb(1, 65, 101);
   padding: 15px;
 }
-nav a {
+header a {
   margin: 1.5rem;
   color: rgb(241, 233, 240);
+  text-transform: uppercase;
+}
+
+footer a {
+  margin: 1.5rem;
+  color: rgb(1, 65, 101);
   text-transform: uppercase;
 }
 
@@ -38,10 +44,16 @@ nav a {
 }
 
 header a.active {
-  color: #ff05fd;
+  color: #21ff05;
   text-decoration: none;
 }
 
-button {
-  background-color: rgb(209, 64, 96);
+footer a.active {
+  color: #21ff05;
+  text-decoration: none;
+}
+
+#button {
+  background-color: rgb(1, 65, 101);
+  border: none;
 }
