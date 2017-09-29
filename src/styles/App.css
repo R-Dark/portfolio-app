@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #2c3e50;
-  padding: 13px;
+  padding: 10px;
 }
 
 header a {
@@ -32,12 +32,19 @@ footer a {
 
 .header-title {
   color: rgb(241, 233, 240);
-  font-size: 32px;
+  font-size: 43px;
+  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+.logo-div {
+  font-family: "Sedgwick Ave Display", cursive;
+  padding-top: 10px;
 }
 
 .logo-div a.active {
   color: #21ff05;
   text-decoration: none;
+  font-size: 44px;
 }
 
 .page-div {
